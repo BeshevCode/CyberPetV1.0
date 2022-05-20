@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Cyber Pet</title>
+	</head>
+	<body>
+		<form name="CyberPet">
+		<div id="TitleText">
+			<h1>Cyber Pet v1.0</h1>
+		</div>
+		<div id="MoneyCounter">
+			<p>£ <output type="inline" id="MoneyValue" value="0"></output></p>
+		</div>
+		
+		<div id="Pet">
+			<p align="Center">
+				<img id="Daffy" src="daffy1.png"></img>
+			</p>
+		</div>
+		
+		<div id="StatHunger">
+		<!--This is the Hunger bar-->
+			<p align="Center">
+				Hunger: <progress id="HungerBar" min="0" max="100" value="100">
+						</progress>
+			</p>
+		</div>
+		
+		<div id="StatBladder">
+		<!--This is the Bladder bar-->
+			<p align="Center">
+				Bladder:	<progress id="BladderBar" min="0" max="100" value="100" >
+							</progress>
+			</p>
+		</div>
+		
+		<div id="StatFun">
+		<!--This is the fun bar-->
+			<p align="Center">
+				Fun:	<progress id="FunBar" min="0" max="100" value="100">
+						</progress>
+			</p>
+		</div>
+	
+		<div id="Buttons">
+		<!--These are the Feed, Bathroom and Play buttons-->
+			<p align="Center">
+				<input id="BtnHunger" type="Button" value="Feed">
+				<input id="BtnBladder" type="Button" value="Bathroom">
+				<input id="BtnFun" type="Button" value="Play">
+			</p>
+		</div>
+		
+		<div id="Footer">
+		<!--This is the How to play section-->
+			<p><small>
+				<br/>HOW TO PLAY :<br/>
+        <br/>Press the buttons to fill your pet's needs.<br/>
+				<br/>If any of the bars gets empty, you won't be able to fill the bar again by pressing the relevant refill button,
+        <br/>unless you purchase the required item from the "Item Shop" that cures the relevant bar!<br/>
+        <br/>If you manage to keep all the bars up and collect enough cash, you can upgrade your pet to a Cowboy and then to a Rapper and COMPLETE THE GAME!<br/>
+				<br/>However if all three bars get to 0, it's GAME OVER!<br/>
+				<br/>Thanks for playing!
+			</small></p>
+		</div>
+		
+		<div id="ItemWindow">
+		<!--The Item shop-->
+			<h2><br/>-- Item Shop --</h2>
+			<p>
+				<input id="item1" type="Button" value="Buy Chicken Nuggets"><br/>
+				<small>Price: £150</small><br/>
+				<small>If starving, cures your pet.</small><br/><br/>
+				<input id="item2" type="Button" value="Buy Medicine"><br/>
+				<small>Price: £200</small><br/>
+				<small>If sick, cures your pet.</small><br/><br/>
+				<input id="item3" type="Button" value="Buy Antidepressants"><br/>
+				<small>Price: £300</small><br/>
+				<small>If depressed, cures your pet.</small><br/><br/>
+			</p>
+		</div>
+		
+		<div id="BoutiqueWindow">
+		<!--The Boutique-->
+		
+			<h2><br/>-- Boutique --</h2>
+			<p>
+				<input id="boutique1" type="Button" value="Dress like a Cowboy"><br/>
+				<small>Price: £250</small><br/>
+				<small>Don't let your yearnings get ahead of your earnings!</small><br/>
+				<small>(Increases income speed)</small><br/><br/>
+				<input id="boutique2" type="Button" value="Dress like a Rapper"><br/>
+				<small>Price: £1000</small><br/>
+				<small>Chains on my neck!</small><br/>
+				<small>(Requires Cowboy)<br/><br/>
+			</p>
+		
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

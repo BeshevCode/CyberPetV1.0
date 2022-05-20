@@ -1,0 +1,142 @@
+@import url('//db.onlinewebfonts.com/c/7adb83fe05067f8a860f41b28f325fac?family=looney+tunes');
+
+html {
+	background-color: whitesmoke;
+}
+
+img {
+	mix-blend-mode: multiply;
+}
+
+#TitleText {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: Center;
+	font-family: 'looney tunes', sans-serif; 
+	text-shadow: 0px 2px 4px grey;
+	width: 75%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+}
+#MoneyCounter {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'looney tunes', sans-serif; 
+	font-size: x-large;
+	text-shadow: 0px 2px 2px grey;
+	width: 10%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+	transform: translate(0px,-10px);
+}
+#StatHunger {
+	font-family: 'looney tunes', sans-serif; 
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 0px 2px 2px grey;
+	width: 20%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+	transform: translate(0px,-10px);
+}
+#StatBladder {
+	font-family: 'looney tunes', sans-serif; 
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 0px 2px 2px grey;
+	width: 20%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+	transform: translate(0px,-10px);
+}
+#StatFun {
+	font-family: 'looney tunes', sans-serif; 
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 0px 2px 2px grey;
+	width: 20%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+	transform: translate(0px,-10px);
+}
+#Footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: Center;
+	font-family: 'looney tunes', sans-serif; 
+	width: 75%;
+	border-radius: 20px;
+	text-align: center;
+	background-image: url('textBackground.png');
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+	box-shadow: 0px 2px 4px grey;
+	padding-bottom: 0.5rem;
+}
+#ItemWindow {
+	position:absolute;
+  margin:0;
+  padding:5px;
+	top:8rem;
+  left:0;   
+	text-align: center;
+	background-image: url('textBackground.png');
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+	border-radius: 30px;
+	width: 30%;
+	box-shadow: 0px 2px 4px grey;
+	font-family: 'looney tunes', sans-serif; 
+}
+#BoutiqueWindow {
+	position:absolute;
+  margin:0;
+  padding:5px;
+	top:8rem;
+  right:0;  
+	text-align: center;
+	background-image: url('textBackground.png');
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+	border-radius: 30px;
+	width: 30%;
+	box-shadow: 0px 2px 4px grey;
+	font-family: 'looney tunes', sans-serif; 
+}
+#Changelog {
+	text-align: center;
+	transform:translate(0px,20px);
+}
+
+#Sprite {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+input {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'looney tunes', sans-serif; 
+	text-shadow: 0px 2px 2px grey;
+	width: 47%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px grey;
+	font-size: medium;
+}
+
+#BtnHunger,
+#BtnBladder,
+#BtnFun {
+	width: 10%;
+}
